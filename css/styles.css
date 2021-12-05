@@ -337,12 +337,12 @@ img {
   margin-bottom: calc(-1 * var(--card-set-gap));
 }
 
-.samples-section-item {
+.samples-card {
   margin-left: var(--card-set-gap);
   margin-bottom: var(--card-set-gap);
+  flex-basis: calc(100% / 3 - var(--card-set-gap));
 
   border-bottom: 1px solid #eeeeee;
-  flex-basis: calc(100% / 3 - var(--card-set-gap));
 }
 
 .samples-card-content {
