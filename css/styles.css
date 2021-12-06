@@ -47,9 +47,6 @@ img {
 
 /* Logo */
 .logo {
-  padding-top: 15px;
-  padding-bottom: 15px;
-
   color: var(--accent-color);
   text-decoration: none;
   font-family: Raleway, sans-serif;
@@ -286,7 +283,6 @@ img {
 .footer-section {
   padding-top: 60px;
   padding-bottom: 60px;
-  height: 252px;
   background-color: #2f303a;
 }
 
@@ -296,6 +292,7 @@ img {
 }
 
 .address-section {
+  height: 81px;
   font-style: normal;
   line-height: 1.7;
 }
@@ -316,9 +313,6 @@ img {
 }
 
 .address-section-contacts {
-  padding-top: 9px;
-  padding-bottom: 9px;
-
   color: rgba(255, 255, 255, 0.6);
 }
 
